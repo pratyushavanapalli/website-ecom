@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>
+        /* Your CSS styles go here */
+        body {
+            font-family: "Sofia", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            font-size: larger;
+        }
+        .container{
+            max-width: 25%;
+        }
+        
+        
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align:right;
+        }
+
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar li {
+            display:inline-block;
+            margin-right: 30px;
+            position: relative;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            font-weight: bold;
+        }
+        .navbar ul ul {
+            position: absolute;
+            top: 100%;
+            display: none;
+            background-color: #333;
+        }
+        .navbar ul ul li {
+            display: block;
+        }
+
+        .navbar li:hover ul {
+            display: block;
+        }
+        .navbar ul ul li a:hover {
+            background-color: #b2d4e4;
+        }
+        .container + .container {
+            margin-left: 20px; /* Add margin between containers */
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="f1.html">Home</a></li>
+            <li>
+                <a href="#">Accessories</a>
+                <ul>
+                    <li><a href="h1.html">HandBags</a></li>
+                    <li><a href="w1.html">footwear</a></li>
+                </ul>  
+            </li>
+            <li>
+                <a href="#">Clothing</a>
+                <ul>
+                    <li><a href="u.html">Dresses</a></li>
+                    <li><a href="t1.html">Tops</a></li>
+                    
+                </ul>              
+            </li>
+            <li><a href="#">Bridal</a>
+                <ul>
+                    <li><a href="x1.html">Lehangas</a></li>
+                    <li><a href="z1.html">Saree</a></li>
+               </ul>  
+            </li>
+            
+            <li><a href="#">Cart</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1><i>dresses</i></h1>
+    </header>
+    <section>
+        <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+            <div class="container" style="width: 30%;">
+                <img src="dres2.jpg" alt="Second Image" style="width: 100%;">
+                <p><b>janasaya</b></p>
+                <p>white floral dress</p>
+            </div>
+            <div class="container" style="width: 30%;">
+                <img src="dres1.jpg" alt="Third Image" style="width: 100%;">
+                <p><b>janasaya</b></p>
+                <p>green floral dress</p>
+            </div>
+            <div class="container" style="width: 30%;">
+                <img src="dres3.jpg" alt="Fourth Image" style="width: 100%;">
+                <p><b>janasaya</b></p>
+                <p>brown partywear dress</p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

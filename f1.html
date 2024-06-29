@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <!-- Add Font Awesome library link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>Shop Your Style</title>
+    <style>
+        body {
+            font-family: "Sofia", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2e9e9;
+        }
+
+        marquee {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #693f0f;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+
+
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align:right;
+        }
+
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar li {
+            display:inline-block;
+            margin-right: 30px;
+            position: relative;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            font-weight: bold;
+        }
+        .navbar ul ul {
+            position: absolute;
+            top: 100%;
+            display: none;
+            background-color: #333;
+        }
+        .navbar ul ul li {
+            display: block;
+        }
+
+        .navbar li:hover ul {
+            display: block;
+        }
+        .navbar ul ul li a:hover {
+            background-color: #b2d4e4;
+        }
+
+        section {
+            padding: 10px;
+
+        }
+        
+        
+        .container {
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            text-align: center;
+
+        
+        }
+        img {
+                max-width: 100%;
+                max-height:80%;
+                margin-left: 0%;
+        }
+        .button {
+                border: none;
+                color: rgb(216, 75, 75);
+                padding: 16px 32px;
+               
+                text-decoration: none;
+                display: flexbox;
+                font-size: 40px;
+                margin:  130px;
+                cursor:pointer;
+        }
+        .lol {
+                position: relative;
+                
+        }
+
+        .tb {
+                position: absolute;
+                bottom: 500px;
+                right: 90px;
+                background-color:transparent;
+                color: rgb(57, 51, 51);
+                padding-left: 20px;
+                padding-right: 20px;
+                font-size: 100px;
+
+        }
+        .tbb{
+            position: absolute;
+            bottom:350px ;
+            right:20px;
+            color: rgb(57, 51, 51);
+            background-color:transparent;
+            font-size: 100px;
+        }
+        .tba{
+            position: absolute;
+            bottom:300px ;
+            right:20px;
+            color: rgb(94, 90, 90);
+            background-color:transparent;
+            font-size: 50px;
+        }
+        .lol .btn {
+            position: absolute;
+            top: 70%;
+            right: 5%;
+            font-size: 80px;
+            background-color: #f1f1f1;
+            color: black;
+            font-size: 16px;
+            padding: 16px 30px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .lol .btn:hover {
+            background-color: black;
+            color: white;
+        }   
+        
+    </style>
+</head>
+<body>
+    <marquee>
+        New and Exciting Collection will be launched soon from Manish Malhotra designs stay tuned............
+    </marquee>
+    <h1><i>Shop Your Style</i></h1>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li>
+                <a href="#">Accessories</a>
+                <ul>
+                    <li><a href="h1.html">HandBags</a></li>
+                    <li><a href="w1.html">footwear</a></li>
+                </ul>  
+            </li>
+            <li>
+                <a href="#">Clothing</a>
+                <ul>
+                    <li><a href="u.html">Dresses</a></li>
+                    <li><a href="t1.html">Tops</a></li>
+                    
+                </ul>              
+            </li>
+            <li><a href="#">Bridal</a>
+                <ul>
+                    <li><a href="x1.html">Lehangas</a></li>
+                    <li><a href="z1.html">Saree</a></li>
+               </ul>  
+            </li>
+            
+            <li><a href="c.html"><i class="fas fa-shopping-cart"></i></a></li>
+
+        </ul>
+    </nav>
+     
+
+    <section>
+        <div class="container">
+            <div class="image">
+                <img src="fas2.jpg">
+            </div>
+                 <div class="text">
+                    <h2><i>Lets Choose the Style</i></h2>
+                    <p>Fashion is very important.It is life-enhancing and like everything that gives pleasure...
+                    </p>
+                
+                <form action="#" method="get">
+                    <input type="text" placeholder="Search..." name="search">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                </div>
+        </div>
+    
+    </section>
+    <h1><i>Explore Our Collection</i></h1>
+    <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+        
+        <img src="fas5.jpg" alt="Second Image" style="width: 30%;">
+        <img src="fas7.jpg" alt="Third Image" style="width: 30%;">
+        <img src="fas8.jpg" alt="Fourth Image" style="width: 30%;">
+    </div>
+    <div>
+        <a href="#" class="button">HandBags</a>
+        <a href="#" class="button">Dresses</a>
+        <a href="#" class="button">Lehangas</a>
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+        <img src="fas0.jpg" alt="Second Image" style="width: 30%;">
+        <img src="fas01.jpg" alt="Third Image" style="width: 30%;">
+        <img src="fas02.jpg" alt="Fourth Image" style="width: 30%;">
+    </div>
+    <div>
+        <a href="#" class="button">footwear</a>
+        <a href="#" class="button">Jeans&Tops</a>
+        <a href="#" class="button">Sarees</a>
+    </div>
+    <section>
+    <div class="lol">
+        <img src="fas000.jpg" style="width:100%;">
+    
+        <div class="tb">
+            <p><i>THE BIG</i></p>
+        </div>
+        <div class="tbb">
+            <p><i>FASHION SALE</i></p>
+        </div>
+        <div class="tba">
+            <p><i>.....Is Live Now</i></p>
+        </div>
+        <a href="shop.html" class="btn">SHOP NOW</a>
+    </div>
+
+</section>
+
+
+
+</body>
+</html>
